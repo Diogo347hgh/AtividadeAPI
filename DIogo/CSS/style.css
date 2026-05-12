@@ -1,0 +1,51 @@
+/* Estilo geral */
+body {
+  font-family: Comic Sans MS, cursive; /* escolha imbecil */
+  background-color: #fafafa;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Títulos */
+h1 {
+  color: purple;
+  text-shadow: 2px 2px yellow;
+  margin-top: 20px;
+}
+
+h2 {
+  color: darkblue;
+}
+
+/* Seções */
+section {
+  border: 3px dotted green;
+  margin: 20px auto;
+  padding: 15px;
+  background: #fff;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Botões */
+button {
+  background: orange;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: cyan;
+}
+
+/* Imagens */
+img {
+  margin-top: 10px;
+  border: 2px solid #333;
+  border-radius: 8px;
+}

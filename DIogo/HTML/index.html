@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moeda</title>
+  <script src="../JS/script.js" defer></script>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+  <h2>Conversor Real ↔ Dólar</h2>
+
+  <!-- Exibir cotação -->
+  <p id="cotacao">Cotação atual:</p>
+
+  <!-- Converter Real para Dólar -->
+  <h3>De Real para Dolar</h3>
+  <input type="number" id="valorReal" placeholder="Digite valor em R$">
+  <button onclick="converterRealParaDolar()">Converter</button>
+  <p id="resultadoDolar"></p>
+
+  <!-- Converter Dólar para Real -->
+  <h3>De Dolar para Real</h3>
+  <input type="number" id="valorDolar" placeholder="Digite valor em US$">
+  <button onclick="converterDolarParaReal()">Converter</button>
+  <p id="resultadoReal"></p>
+</body>
+</html>
